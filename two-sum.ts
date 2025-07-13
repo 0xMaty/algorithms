@@ -24,18 +24,15 @@ function twoSum(nums: number[], target: number): number[] {
   return [];
 }
 
-function main() {
-  const nums = [2, 7, 11, 15];
-  const target = 9;
-  const result = twoSum(nums, target);
-  console.log(`Input: nums = [${nums}], target = ${target}`);
-  console.log(`Output: [${result}]`); // Expected output: [0, 1] or [1, 0]
+const nums = [2, 7, 11, 15];
+const target = 9;
+const result = twoSum(nums, target);
+console.log(`Input: nums = [${nums}], target = ${target}`);
+console.log(`Output: [${result}]`); // Expected output: [0, 1] or [1, 0]
 
-  const nums2 = [3, 2, 4];
-  const target2 = 6;
-  const result2 = twoSum(nums2, target2);
-  console.log(`Input: nums = [${nums2}], target = ${target2}`);
-  console.log(`Output: [${result2}]`); // Expected output: [1, 2] or [2, 1]
-}
+const nums2 = [3, 2, 4];
+const target2 = 6;
+const result2 = twoSum(nums2, target2);
+console.log(`Input: nums = [${nums2}], target = ${target2}`);
+console.log(`Output: [${result2}]`); // Expected output: [1, 2] or [2, 1]
 
-main();
